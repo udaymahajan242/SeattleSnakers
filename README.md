@@ -2,7 +2,6 @@
 
 Effort by : Team <b>Seattle Snakers </b>: Haytham S, Nguyen L. Samson W. & Uday M .
  
-
 Seattle Snakers powered by Adafruit Bluefruit 52 & Intel Altera FGPA for Android (4.4 & up).
 ================================
 This app is implemented as a part of CSE/EE 371 Final Project in Spring 2018.
