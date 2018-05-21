@@ -1,14 +1,10 @@
 # UW CSE-EE 371 Final Project.
 
+Effort by : Team <b>Seattle Snakers </b>: Haytham S, Nguyen L. Samson W. & Uday M .
 
-
-
-Effort by : Team <b>Seattle Snakers </b>: <u>Haytham S, Nguyen L. Samson W. & Uday M </u>>.
- 
 Android Appication developed by [Uday Mahajan](http://www.udaymahajan.me)
  
  
-
 This app is implemented as a part of CSE/EE 371 Final Project in Spring 2018.
 The team used some of the source code provided by Adafruit Industries for Bluefruit configuration.
  
@@ -16,7 +12,7 @@ This app is DMCA Copyright protected and must not be distributed without written
 consent of UW CSE or EE department(s) and Adafruit Industries.
    
 
-© University of Washington, Seattle.
+©  [University of Washington, Seattle.](https://www.washington.edu)
 All Rights Reserved. 2018.
    
 
@@ -39,6 +35,6 @@ Seattle Snakers enables the exchange of information between your Bluefruit LE br
 
 ## License
 
-Unless otherwise specified, all files produced by Adafruit are covered by an [MIT license](https://github.com/udaymahajan242/SeattleSnakers/blob/master/license.txt).  
+Unless otherwise specified, all files produced by Seattle Snakers team are covered by an [MIT license](https://github.com/udaymahajan242/SeattleSnakers/blob/master/license.txt).  
 
 Files produced by Nordic Semiconductors are covered by their own license terms, as detailed in the file headers and appropriate folders. Please carefully review the license requirements before using this source code in your own application.
