@@ -1,11 +1,10 @@
 # UW CSE-EE 371 Final Project.
 
 Effort by : Team <b>Seattle Snakers </b>: Haytham S, Nguyen L. Samson W. & Uday M .
-
-Android Appication developed by [Uday Mahajan](http://www.udaymahajan.me)
-©  [University of Washington, Seattle.](https://www.washington.edu)
-All Rights Reserved. 2018.
  
+
+Seattle Snakers powered by Adafruit Bluefruit 52 & Intel Altera FGPA for Android (4.4 & up).
+================================
 This app is implemented as a part of CSE/EE 371 Final Project in Spring 2018.
 The team used some of the source code provided by Adafruit Industries for Bluefruit configuration.
  
@@ -15,8 +14,15 @@ consent of UW CSE or EE department(s) and Adafruit Industries.
 Seattle Snakers application enables the exchange of information between your Bluefruit LE breakout and your BLE enabled Android device (Android 4.4 and higher required). It also allows the user a game pad controller interface to send instructions for Multiplayer Snake Game to Bluefruit52 which then send the signals to
 the Intel Altera FGPA.
 
-Seattle Snakers powered by Adafruit Bluefruit 52 & Intel Altera FGPA for Android (4.4 & up).
-================================
+Android Appication developed by [Uday Mahajan](http://www.udaymahajan.me)
+
+
+©  [University of Washington, Seattle.](https://www.washington.edu)
+All Rights Reserved. 2018.
+
+
+
+
 
 This application works with the following Adafruit breakouts:
 
