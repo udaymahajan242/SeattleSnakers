@@ -1,0 +1,45 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion '27.0.3'
+    defaultConfig {
+        applicationId "com.uw.eecse.seattlesnakers.controller"
+        minSdkVersion 19
+        targetSdkVersion 25
+        versionName "2.3.1"
+    }
+    useLibrary 'org.apache.http.legacy'
+    // TODO: remove Apache library and use HttpURLConnection (Apache is deprecated since Android 6.0)
+    aaptOptions {
+        noCompress "zip"
+    }
+    buildTypes {
+        project {
+        }
+    }
+    productFlavors {
+    }
+}
+
+repositories {
+    maven { url "https://repo.eclipse.org/content/repositories/paho-releases/" }
+    maven { url "https://s3.amazonaws.com/repo.commonsware.com" }
+    google()
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'no.nordicsemi.android:dfu:1.0.4'
+    implementation('org.eclipse.paho:org.eclipse.paho.android.service:1.0.2') {
+        exclude module: 'support-v4'
+    }
+    implementation 'com.android.support:appcompat-v7:27.1.0'
+    implementation 'com.larswerkman:HoloColorPicker:1.4'
+    implementation 'com.android.support:design:27.1.0'
+    implementation 'com.google.android.gms:play-services-analytics:11.6.2'
+    implementation 'com.google.android.gms:play-services-location:11.6.2'
+    implementation 'com.google.android.gms:play-services-vision:11.6.2'
+    implementation 'com.commonsware.cwac:provider:0.5.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+}
