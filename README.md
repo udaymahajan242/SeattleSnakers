@@ -5,7 +5,7 @@ UW CSE-EE 371 Final Project.
 
 Effort by : Team <b>Seattle Snakers </b>: <u>Haytham S, Nguyen L. Samson W. & Uday M </u>>.
  
-Android Appication developed by [a link](http://www.udaymahajan.me) Uday Mahajan</a>
+Android Appication developed by [Uday Mahajan](http://www.udaymahajan.me)
  
  
 
