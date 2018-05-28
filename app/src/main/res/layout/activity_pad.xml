@@ -27,24 +27,23 @@
             android:layout_height="match_parent">
 
             <ImageButton
-                android:id="@+id/upButton1"
-                android:tag="1"
+                android:id="@+id/downButton1"
                 android:layout_width="64dp"
                 android:layout_height="64dp"
                 android:layout_marginStart="8dp"
                 android:contentDescription="Player 1 Up Control"
+                android:tag="1"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.484"
+                app:layout_constraintHorizontal_bias="0.522"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.131"
+                app:layout_constraintVertical_bias="0.2"
                 app:srcCompat="@drawable/up1" />
 
 
             <ImageButton
                 android:id="@+id/leftButton1"
-                android:tag="2"
                 android:layout_width="64dp"
                 android:layout_height="64dp"
                 android:layout_marginBottom="8dp"
@@ -52,17 +51,17 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
                 android:contentDescription="Player 1 Left Control"
+                android:tag="2"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.306"
+                app:layout_constraintHorizontal_bias="0.295"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.245"
+                app:layout_constraintVertical_bias="0.187"
                 app:srcCompat="@drawable/left1" />
 
             <ImageButton
                 android:id="@+id/rightButton1"
-                android:tag="3"
                 android:layout_width="64dp"
                 android:layout_height="64dp"
                 android:layout_marginBottom="8dp"
@@ -70,18 +69,18 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
                 android:contentDescription="Player 1 Right Control"
+                android:tag="3"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.709"
+                app:layout_constraintHorizontal_bias="0.78"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.245"
+                app:layout_constraintVertical_bias="0.187"
                 app:srcCompat="@drawable/right1" />
 
 
             <ImageButton
-                android:id="@+id/downButton1"
-                android:tag="4"
+                android:id="@+id/upButton1"
                 android:layout_width="64dp"
                 android:layout_height="64dp"
                 android:layout_marginBottom="8dp"
@@ -89,22 +88,24 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
                 android:contentDescription="Player 1 Down Control"
+                android:tag="4"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.537"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.373"
+                app:layout_constraintVertical_bias="0.348"
                 app:srcCompat="@drawable/down1" />
 
             <ImageButton
                 android:id="@+id/upButton2"
-                android:tag="5"
                 android:layout_width="64dp"
                 android:layout_height="64dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
-                android:layout_marginTop="260dp"
+                android:layout_marginTop="268dp"
                 android:contentDescription="Player 2 Up Control"
+                android:tag="5"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -112,7 +113,6 @@
 
             <ImageButton
                 android:id="@+id/leftButton2"
-                android:tag="6"
                 android:layout_width="64dp"
                 android:layout_height="64dp"
                 android:layout_marginBottom="8dp"
@@ -120,17 +120,17 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
                 android:contentDescription="Player 2 Left Control"
+                android:tag="6"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.306"
+                app:layout_constraintHorizontal_bias="0.231"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.761"
+                app:layout_constraintVertical_bias="0.819"
                 app:srcCompat="@drawable/left2" />
 
             <ImageButton
                 android:id="@+id/rightButton2"
-                android:tag="7"
                 android:layout_width="64dp"
                 android:layout_height="64dp"
                 android:layout_marginBottom="8dp"
@@ -138,17 +138,17 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
                 android:contentDescription="Player 2 Right Control"
+                android:tag="7"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.709"
+                app:layout_constraintHorizontal_bias="0.78"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.761"
+                app:layout_constraintVertical_bias="0.819"
                 app:srcCompat="@drawable/right2" />
 
             <ImageButton
                 android:id="@+id/downButton2"
-                android:tag="8"
                 android:layout_width="64dp"
                 android:layout_height="64dp"
                 android:layout_marginBottom="8dp"
@@ -156,48 +156,50 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
                 android:contentDescription="Player 2 Down Control"
+                android:tag="8"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.884"
+                app:layout_constraintVertical_bias="0.819"
                 app:srcCompat="@drawable/down2" />
 
-            <Button
-                android:id="@+id/startButton"
-                android:tag="9"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+            <ImageButton
+                android:id="@+id/fireButton1"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
                 android:layout_marginBottom="8dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
                 android:contentDescription="Start the Game"
+                android:tag="9"
                 android:text="Start"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.035"
+                app:layout_constraintHorizontal_bias="0.241"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.513" />
+                app:srcCompat="@drawable/player1FireRotated" />
 
-            <Button
-                android:id="@+id/resetButton"
-                android:tag="0"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+            <ImageButton
+                android:id="@+id/fireButton2"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
                 android:layout_marginBottom="8dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
                 android:contentDescription="Reset the Game"
+                android:tag="0"
                 android:text="Reset"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.964"
+                app:layout_constraintHorizontal_bias="0.817"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.513" />
+                app:layout_constraintVertical_bias="0.498"
+                app:srcCompat="@drawable/player2Fire" />
 
             <android.support.design.widget.TextInputLayout
                 android:id="@+id/textInputLayout"
@@ -237,8 +239,8 @@
                     android:id="@+id/player2Name"
                     android:layout_width="178dp"
                     android:layout_height="36dp"
-                    android:textStyle="bold"
-                    android:hint="Player 2" />
+                    android:hint="Player 2"
+                    android:textStyle="bold" />
             </android.support.design.widget.TextInputLayout>
 
             <ImageView
