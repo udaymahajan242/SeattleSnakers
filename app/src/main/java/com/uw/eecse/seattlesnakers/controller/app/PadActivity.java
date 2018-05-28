@@ -87,9 +87,9 @@ public class PadActivity extends UartInterfaceActivity {
         ImageButton downButton2 = (ImageButton) findViewById(R.id.downButton2);
         downButton2.setOnTouchListener(mPadButtonTouchListener);
 
-        ImageButton startButton = (ImageButton) findViewById(R.id.startButton);
+        ImageButton startButton = (ImageButton) findViewById(R.id.fireButton1);
         startButton.setOnTouchListener(mPadButtonTouchListener);
-        ImageButton resetButton = (ImageButton) findViewById(R.id.resetButton);
+        ImageButton resetButton = (ImageButton) findViewById(R.id.fireButton2);
         resetButton.setOnTouchListener(mPadButtonTouchListener);
 
 
