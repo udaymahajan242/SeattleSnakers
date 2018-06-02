@@ -1,11 +1,13 @@
-# UW CSE-EE 371 Final Project.
+# UW CSE-EE 371 Final Project Android Application.
 
 Effort by : Team <b>Seattle Snakers </b>: Haytham S, Nguyen L. Samson W. & Uday M .
  
 Seattle Snakers powered by Adafruit Bluefruit 52 & Intel Altera FGPA for Android (4.4 & up).
 ================================
-This app is implemented as a part of CSE/EE 371 Final Project in Spring 2018.
-The team used some of the source code provided by Adafruit Industries for Bluefruit configuration.
+This app is implemented as a part of CSE/EE 371 Final Project in Spring 2018. For complete project code including
+Verilog implementation, please go to https://github.com/udaymahajan242/CSE-371-Spring-2018 (Email request needed to view this private repository for avoiding plagarism by future UW CSE/EE students).
+
+We used some of the source code provided by Adafruit Industries for Bluefruit configuration.
  
 This app is DMCA Copyright protected and must not be distributed without written
 consent of UW CSE or EE department(s) and Adafruit Industries.
